@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-HairlineItalic.eot');
+    src: local('Interstate Hairline Italic'), local('Interstate-HairlineItalic'),
+        url('Interstate-HairlineItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-HairlineItalic.woff2') format('woff2'),
+        url('Interstate-HairlineItalic.woff') format('woff'),
+        url('Interstate-HairlineItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-ExtraLightItalic.eot');
+    src: local('Interstate ExtraLight Italic'), local('Interstate-ExtraLightItalic'),
+        url('Interstate-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-ExtraLightItalic.woff2') format('woff2'),
+        url('Interstate-ExtraLightItalic.woff') format('woff'),
+        url('Interstate-ExtraLightItalic.ttf') format('truetype');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Black.eot');
+    src: local('Interstate Black'), local('Interstate-Black'),
+        url('Interstate-Black.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Black.woff2') format('woff2'),
+        url('Interstate-Black.woff') format('woff'),
+        url('Interstate-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Light.eot');
+    src: local('Interstate Light'), local('Interstate-Light'),
+        url('Interstate-Light.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Light.woff2') format('woff2'),
+        url('Interstate-Light.woff') format('woff'),
+        url('Interstate-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-ExtraLight.eot');
+    src: local('Interstate ExtraLight'), local('Interstate-ExtraLight'),
+        url('Interstate-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-ExtraLight.woff2') format('woff2'),
+        url('Interstate-ExtraLight.woff') format('woff'),
+        url('Interstate-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Bold.eot');
+    src: local('Interstate Bold'), local('Interstate-Bold'),
+        url('Interstate-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Bold.woff2') format('woff2'),
+        url('Interstate-Bold.woff') format('woff'),
+        url('Interstate-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-LightItalic.eot');
+    src: local('Interstate Light Italic'), local('Interstate-LightItalic'),
+        url('Interstate-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-LightItalic.woff2') format('woff2'),
+        url('Interstate-LightItalic.woff') format('woff'),
+        url('Interstate-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Hairline.eot');
+    src: local('Interstate Hairline'), local('Interstate-Hairline'),
+        url('Interstate-Hairline.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Hairline.woff2') format('woff2'),
+        url('Interstate-Hairline.woff') format('woff'),
+        url('Interstate-Hairline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstateBlack';
+    src: url('InterstateBlack.eot');
+    src: local('InterstateBlack'),
+        url('InterstateBlack.eot?#iefix') format('embedded-opentype'),
+        url('InterstateBlack.woff2') format('woff2'),
+        url('InterstateBlack.woff') format('woff'),
+        url('InterstateBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-BoldItalic.eot');
+    src: local('Interstate-BoldItalic'),
+        url('Interstate-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-BoldItalic.woff2') format('woff2'),
+        url('Interstate-BoldItalic.woff') format('woff'),
+        url('Interstate-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Regular.eot');
+    src: local('Interstate Regular'), local('Interstate-Regular'),
+        url('Interstate-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Regular.woff2') format('woff2'),
+        url('Interstate-Regular.woff') format('woff'),
+        url('Interstate-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-UltraBlack.eot');
+    src: local('Interstate UltraBlack'), local('Interstate-UltraBlack'),
+        url('Interstate-UltraBlack.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-UltraBlack.woff2') format('woff2'),
+        url('Interstate-UltraBlack.woff') format('woff'),
+        url('Interstate-UltraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-RegularItalic.eot');
+    src: local('Interstate Regular Italic'), local('Interstate-RegularItalic'),
+        url('Interstate-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-RegularItalic.woff2') format('woff2'),
+        url('Interstate-RegularItalic.woff') format('woff'),
+        url('Interstate-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-UltraBlackItalic.eot');
+    src: local('Interstate-UltraBlackItalic'),
+        url('Interstate-UltraBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-UltraBlackItalic.woff2') format('woff2'),
+        url('Interstate-UltraBlackItalic.woff') format('woff'),
+        url('Interstate-UltraBlackItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstatePlus';
+    src: url('InterstatePlus-Black.eot');
+    src: local('InterstatePlus Black'), local('InterstatePlus-Black'),
+        url('InterstatePlus-Black.eot?#iefix') format('embedded-opentype'),
+        url('InterstatePlus-Black.woff2') format('woff2'),
+        url('InterstatePlus-Black.woff') format('woff'),
+        url('InterstatePlus-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstatePlus';
+    src: url('InterstatePlus-Regular.eot');
+    src: local('InterstatePlus Regular'), local('InterstatePlus-Regular'),
+        url('InterstatePlus-Regular.eot?#iefix') format('embedded-opentype'),
+        url('InterstatePlus-Regular.woff2') format('woff2'),
+        url('InterstatePlus-Regular.woff') format('woff'),
+        url('InterstatePlus-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate.eot');
+    src: local('Interstate'),
+        url('Interstate.eot?#iefix') format('embedded-opentype'),
+        url('Interstate.woff2') format('woff2'),
+        url('Interstate.woff') format('woff'),
+        url('Interstate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstatePlus';
+    src: url('InterstatePlus-Light.eot');
+    src: local('InterstatePlus Light'), local('InterstatePlus-Light'),
+        url('InterstatePlus-Light.eot?#iefix') format('embedded-opentype'),
+        url('InterstatePlus-Light.woff2') format('woff2'),
+        url('InterstatePlus-Light.woff') format('woff'),
+        url('InterstatePlus-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-ThinItalic.eot');
+    src: local('Interstate Thin Italic'), local('Interstate-ThinItalic'),
+        url('Interstate-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-ThinItalic.woff2') format('woff2'),
+        url('Interstate-ThinItalic.woff') format('woff'),
+        url('Interstate-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstateLight';
+    src: url('InterstateLight.eot');
+    src: local('InterstateLight'),
+        url('InterstateLight.eot?#iefix') format('embedded-opentype'),
+        url('InterstateLight.woff2') format('woff2'),
+        url('InterstateLight.woff') format('woff'),
+        url('InterstateLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-BlackItalic.eot');
+    src: local('Interstate-BlackItalic'),
+        url('Interstate-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-BlackItalic.woff2') format('woff2'),
+        url('Interstate-BlackItalic.woff') format('woff'),
+        url('Interstate-BlackItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'InterstatePlus';
+    src: url('InterstatePlus-Bold.eot');
+    src: local('InterstatePlus Bold'), local('InterstatePlus-Bold'),
+        url('InterstatePlus-Bold.eot?#iefix') format('embedded-opentype'),
+        url('InterstatePlus-Bold.woff2') format('woff2'),
+        url('InterstatePlus-Bold.woff') format('woff'),
+        url('InterstatePlus-Bold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Interstate';
+    src: url('Interstate-Thin.eot');
+    src: local('Interstate Thin'), local('Interstate-Thin'),
+        url('Interstate-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Interstate-Thin.woff2') format('woff2'),
+        url('Interstate-Thin.woff') format('woff'),
+        url('Interstate-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
