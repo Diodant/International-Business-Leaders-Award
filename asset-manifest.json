@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/International-Business-Leaders-Award/static/css/main.4091b4a2.css",
-    "main.js": "/International-Business-Leaders-Award/static/js/main.c82d8486.js",
+    "main.js": "/International-Business-Leaders-Award/static/js/main.8c9db73c.js",
     "static/js/453.23263ec9.chunk.js": "/International-Business-Leaders-Award/static/js/453.23263ec9.chunk.js",
     "static/media/img13.jpg": "/International-Business-Leaders-Award/static/media/img13.bc4f5d1ccb808f3157db.jpg",
     "static/media/img11.jpg": "/International-Business-Leaders-Award/static/media/img11.df2515b877abe9a60eaa.jpg",
@@ -156,11 +156,11 @@
     "static/media/arrow.svg": "/International-Business-Leaders-Award/static/media/arrow.6a2d71b08ea3cec70b817b3b70b97c8a.svg",
     "index.html": "/International-Business-Leaders-Award/index.html",
     "main.4091b4a2.css.map": "/International-Business-Leaders-Award/static/css/main.4091b4a2.css.map",
-    "main.c82d8486.js.map": "/International-Business-Leaders-Award/static/js/main.c82d8486.js.map",
+    "main.8c9db73c.js.map": "/International-Business-Leaders-Award/static/js/main.8c9db73c.js.map",
     "453.23263ec9.chunk.js.map": "/International-Business-Leaders-Award/static/js/453.23263ec9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4091b4a2.css",
-    "static/js/main.c82d8486.js"
+    "static/js/main.8c9db73c.js"
   ]
 }
