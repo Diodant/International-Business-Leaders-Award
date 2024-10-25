@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/International-Business-Leaders-Award/static/css/main.8d2db293.css",
-    "main.js": "/International-Business-Leaders-Award/static/js/main.8c9db73c.js",
+    "main.css": "/International-Business-Leaders-Award/static/css/main.4773442d.css",
+    "main.js": "/International-Business-Leaders-Award/static/js/main.29ff73c5.js",
     "static/js/453.23263ec9.chunk.js": "/International-Business-Leaders-Award/static/js/453.23263ec9.chunk.js",
     "static/media/img13.jpg": "/International-Business-Leaders-Award/static/media/img13.bc4f5d1ccb808f3157db.jpg",
     "static/media/img11.jpg": "/International-Business-Leaders-Award/static/media/img11.df2515b877abe9a60eaa.jpg",
@@ -27,19 +27,26 @@
     "static/media/judges_5.jpg": "/International-Business-Leaders-Award/static/media/judges_5.a5c7473d81521ecef3cb.jpg",
     "static/media/judges_6.jpg": "/International-Business-Leaders-Award/static/media/judges_6.5ace6b186b8e85194464.jpg",
     "static/media/judges_2.jpg": "/International-Business-Leaders-Award/static/media/judges_2.81461958563fd3002c31.jpg",
+    "static/media/judges_28.jpg": "/International-Business-Leaders-Award/static/media/judges_28.6d1cd6b1434276479fec.jpg",
     "static/media/judges_4.jpg": "/International-Business-Leaders-Award/static/media/judges_4.a04c5925ab94dbf3a807.jpg",
     "static/media/image2.jpg": "/International-Business-Leaders-Award/static/media/image2.7b6075584b5dbee5ab9e.jpg",
     "static/media/judges_13.jpg": "/International-Business-Leaders-Award/static/media/judges_13.652349f7e6c671caeb7e.jpg",
+    "static/media/judges_27.jpg": "/International-Business-Leaders-Award/static/media/judges_27.be35b364c6ba144977c1.jpg",
     "static/media/judges_12.jpg": "/International-Business-Leaders-Award/static/media/judges_12.7721b8602395938e4985.jpg",
+    "static/media/judges_30.jpg": "/International-Business-Leaders-Award/static/media/judges_30.f0b947a8826da6622f1f.jpg",
+    "static/media/judges_23.jpg": "/International-Business-Leaders-Award/static/media/judges_23.8e8f3bad6bc17036ced4.jpg",
+    "static/media/judges_26.jpg": "/International-Business-Leaders-Award/static/media/judges_26.c408ef8f56dea6ed1847.jpg",
     "static/media/judges_1.jpg": "/International-Business-Leaders-Award/static/media/judges_1.b309c61cfc48c12b8191.jpg",
     "static/media/judges_bg.jpg": "/International-Business-Leaders-Award/static/media/judges_bg.0f8ed1cdce9682d82413.jpg",
     "static/media/gallery_bg.webp": "/International-Business-Leaders-Award/static/media/gallery_bg.9c3544ab27158a6ad53f.webp",
+    "static/media/judges_29.jpg": "/International-Business-Leaders-Award/static/media/judges_29.432da7b7f1a932576c9d.jpg",
     "static/media/judges_7.jpg": "/International-Business-Leaders-Award/static/media/judges_7.498d0099bca3ff868e82.jpg",
     "static/media/judges_25.jpg": "/International-Business-Leaders-Award/static/media/judges_25.6273d56a94776d57d9c2.jpg",
     "static/media/quoteBackground.jpg": "/International-Business-Leaders-Award/static/media/quoteBackground.8100c7169e4bf31d1c4a.jpg",
     "static/media/judges_10.jpg": "/International-Business-Leaders-Award/static/media/judges_10.0386190fac35af229432.jpg",
     "static/media/judges_8.jpg": "/International-Business-Leaders-Award/static/media/judges_8.ea2a7b7aaa1b003c6757.jpg",
     "static/media/judges_16.webp": "/International-Business-Leaders-Award/static/media/judges_16.0f9e78d90b152f3f8287.webp",
+    "static/media/winners_bg.webp": "/International-Business-Leaders-Award/static/media/winners_bg.8b5cca3aa0beea0f5486.webp",
     "static/media/judges_11.webp": "/International-Business-Leaders-Award/static/media/judges_11.f690c0880aa496dd1158.webp",
     "static/media/judges_24.jpg": "/International-Business-Leaders-Award/static/media/judges_24.4710246aa163d17dd633.jpg",
     "static/media/judges_9.webp": "/International-Business-Leaders-Award/static/media/judges_9.402d4b6af3257a6d6c7e.webp",
@@ -57,7 +64,6 @@
     "static/media/Interstate-Thin.ttf": "/International-Business-Leaders-Award/static/media/Interstate-Thin.3a686da8f9cb6955df83.ttf",
     "static/media/Interstate-LightItalic.eot": "/International-Business-Leaders-Award/static/media/Interstate-LightItalic.6b5652ea8040381d7e1b.eot",
     "static/media/Interstate-LightItalic.ttf": "/International-Business-Leaders-Award/static/media/Interstate-LightItalic.a31b277184bd00b8c9ec.ttf",
-    "static/media/judges_23.webp": "/International-Business-Leaders-Award/static/media/judges_23.b45eab33b5606b88765a.webp",
     "static/media/Interstate-BoldItalic.eot": "/International-Business-Leaders-Award/static/media/Interstate-BoldItalic.915a59de5f4af7a76ae7.eot",
     "static/media/Interstate-BoldItalic.ttf": "/International-Business-Leaders-Award/static/media/Interstate-BoldItalic.987d094e9c4a58d38d38.ttf",
     "static/media/Interstate-Light.eot": "/International-Business-Leaders-Award/static/media/Interstate-Light.0d00c0e04dc2b5087efe.eot",
@@ -155,12 +161,12 @@
     "static/media/ic_youtube.svg": "/International-Business-Leaders-Award/static/media/ic_youtube.d7e10d6d4186488de498950add417e18.svg",
     "static/media/arrow.svg": "/International-Business-Leaders-Award/static/media/arrow.6a2d71b08ea3cec70b817b3b70b97c8a.svg",
     "index.html": "/International-Business-Leaders-Award/index.html",
-    "main.8d2db293.css.map": "/International-Business-Leaders-Award/static/css/main.8d2db293.css.map",
-    "main.8c9db73c.js.map": "/International-Business-Leaders-Award/static/js/main.8c9db73c.js.map",
+    "main.4773442d.css.map": "/International-Business-Leaders-Award/static/css/main.4773442d.css.map",
+    "main.29ff73c5.js.map": "/International-Business-Leaders-Award/static/js/main.29ff73c5.js.map",
     "453.23263ec9.chunk.js.map": "/International-Business-Leaders-Award/static/js/453.23263ec9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d2db293.css",
-    "static/js/main.8c9db73c.js"
+    "static/css/main.4773442d.css",
+    "static/js/main.29ff73c5.js"
   ]
 }
