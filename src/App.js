@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './components/MainPage';
 import Judges from './components/Judges';
+import WinnersPage from './components/WinnersPage';
 import ContactForm from './components/ContactForm';
 import PhotoGallery from './components/PhotoGallery';
 import Footer from './components/Footer';
@@ -18,12 +19,9 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />} />
           <Route path="/judges" element={<Judges />} />
+          <Route path="/winners" element={<WinnersPage />} />
           <Route path="/contacts" element={<ContactForm />} />
           <Route path="/gallery" element={<PhotoGallery />} />
-          {/* 
-          <Route path="/gallery" element={<PhotoGallery />} />
-          <Route path="/careers" element={<CareersPage />} />
-          <Route path="/about-us" element={<AboutPage />} /> */}
         </Routes>
         <Footer />
       </div>

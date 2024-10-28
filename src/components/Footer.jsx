@@ -16,7 +16,7 @@ const Footer = () => {
           <li><Link to="/">Главная</Link></li>
             <li><Link to="/gallery">Фотогалерея</Link></li>
             <li><Link to="/judges">Судьи</Link></li>
-            <li><Link to="/sitemap">Победители</Link></li>
+            <li><Link to="/winners">Победители</Link></li>
             <li><Link to="/contacts">Контакты</Link></li>
           </ul>
         </nav>

@@ -22,9 +22,14 @@ import judges_19 from '../images/judges/judges_19.webp';
 import judges_20 from '../images/judges/judges_20.webp';
 import judges_21 from '../images/judges/judges_21.jpg';
 import judges_22 from '../images/judges/judges_22.webp';
-import judges_23 from '../images/judges/judges_23.webp';
+import judges_23 from '../images/judges/judges_23.jpg';
 import judges_24 from '../images/judges/judges_24.jpg';
 import judges_25 from '../images/judges/judges_25.jpg';
+import judges_26 from '../images/judges/judges_26.jpg';
+import judges_27 from '../images/judges/judges_27.jpg';
+import judges_28 from '../images/judges/judges_28.jpg';
+import judges_29 from '../images/judges/judges_29.jpg';
+import judges_30 from '../images/judges/judges_30.jpg';
 
 const Judges = () => {
   const [activeYear, setActiveYear] = useState(2019);
@@ -64,6 +69,13 @@ const Judges = () => {
       { name: 'Надежда Кузнецова', country: 'Беларусь', description: 'Эксперт по стратегическому управлению, участник международных проектов по развитию бизнеса в странах СНГ.', image: judges_23 },
       { name: 'Арсен Исаков', country: 'Казахстан', description: 'Инвестор, активный участник проектов по поддержке стартапов и инноваций в Центральной Азии.', image: judges_24 },
       { name: 'Лейла Мамедова', country: 'Азербайджан', description: 'Руководитель международного проекта по развитию устойчивого бизнеса и корпоративной социальной ответственности.', image: judges_25 },
+    ],
+    2024: [
+      { name: 'Иван Королев', country: 'Россия', description: 'Эксперт в области цифровых технологий и автоматизации, лауреат множества премий за инновационные разработки в сфере ИТ и промышленности.', image: judges_26 },
+      { name: 'Ольга Воронцова', country: 'Украина', description: 'Руководитель крупного консалтингового агентства, известный специалист по управлению бизнес-рисками и устойчивому развитию в странах СНГ.', image: judges_27 },
+      { name: 'Юлия Байбабина', country: 'Казахстан', description: 'Предприниматель, создатель патента “Сменный антибактериальный чехол с функцией самодезинфекции для медицинского постельного белья”', image: judges_28 },
+      { name: 'Алия Ахмедова', country: 'Азербайджан', description: 'Эксперт в области корпоративной социальной ответственности, консультант международных компаний по вопросам устойчивого бизнеса и внедрения социальных программ.', image: judges_29 },
+      { name: 'Сергей Беляев', country: 'Беларусь', description: 'Специалист по инновациям в сфере производственных процессов, участник международных проектов по цифровой трансформации и повышению эффективности производственных систем.', image: judges_30 },
     ],
   };
 

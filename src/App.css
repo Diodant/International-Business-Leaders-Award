@@ -751,6 +751,64 @@ justify-content: center;
   transform: scale(1.1);
 }
 
+.winners-container {
+  position: relative;
+  background-image: url('./images/winners_bg.webp'); 
+  background-size: cover;
+  background-position: center;
+  height: 60vh; 
+}
+
+/* Minimalist styling for the Winners Page */
+.winners-section {
+  background-color: #2e2e38;  /* Softer background color */
+  color: #2e2e38;
+  padding: 50px 100px;
+}
+
+.winners-wrapper {
+
+  background-color: #fff;
+  padding: 30px 50px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);  
+}
+
+
+.winners-year {
+  margin-bottom: 30px;
+}
+
+.winners-year h2 {
+  font-size: 32px;
+  color: #ffe600;
+  font-weight: 500;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ffe600;  /* Thinner bottom border */
+  padding-bottom: 8px;
+}
+
+.winners-year ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.winners-year li {
+  font-size: 22px;
+  color: #4a4a4a;
+  line-height: 28px;  
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s ease;
+}
+
+.winners-year li strong {
+  font-weight: 600;
+  color: #2e2e38;
+}
+
+
+
+
 .gallery-container {
   position: relative;
   background-image: url('./images/gallery_bg.webp'); 
@@ -761,7 +819,7 @@ justify-content: center;
 
 .gallery-section {
   padding: 50px 100px;
-  background-color: #fff; 
+  background-color: #2e2e38; 
   color: #2c2c38;
   text-align: center;
 }
@@ -988,7 +1046,7 @@ justify-content: center;
 }
 
 .footer-logo img {
-  height: 80px;
+  height: 60px;
 }
 
 .footer-slogan {
