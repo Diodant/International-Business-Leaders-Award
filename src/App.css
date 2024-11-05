@@ -295,11 +295,13 @@ padding: 0px 100px;
   position: relative;
   background: url('./images/quoteBackground.jpg') no-repeat center center;
   background-size: cover;
-  height: 60vh; 
+  min-height: 60vh; /* Изменено на min-height для лучшей адаптивности */
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin: 20px 50px;
+  justify-content: center;
+  margin: 20px auto; /* Установите авто отступы для центрирования */
+  padding: 20px;
+
 }
 
 .quote-overlay {
@@ -313,14 +315,16 @@ padding: 0px 100px;
 
 .quote-content {
   display: flex;
-justify-content: center;
-  height: 100%;
   flex-direction: column;
+  justify-content: center;
   position: relative;
-  padding-left: 100px;
+  padding: 20px;
   color: white;
-  max-width: 50%;
+  max-width: 70%;
+  width: 100%;
+  box-sizing: border-box;
 }
+
 
 .quote-title {
   font-size: 120px;
@@ -334,11 +338,13 @@ justify-content: center;
 }
 
 .quote-content p {
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-size: 32px;
   line-height: 44px;
   font-family: Georgia, serif;
   font-weight: 400;
-  margin: 0 0 20px;
+ 
 }
 
 .quote-content .author {

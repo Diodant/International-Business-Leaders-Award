@@ -1,6 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const WinnersPage = () => {
+
+  useEffect(() => {
+    const replaceName = () => {
+
+      const elements = document.querySelectorAll('[data-translate-custom="true"]');
+      elements.forEach((el) => {
+        if (document.documentElement.lang !== 'ru') {
+          el.textContent = 'Yuliya Baibabina';
+        }
+      });
+    };
+
+    const observer = new MutationObserver(() => {
+      replaceName();
+    });
+
+    observer.observe(document.body, { childList: true, subtree: true });
+
+    return () => observer.disconnect();
+  }, []);
+
+
   return (
     <>
             <div className="winners-container">
@@ -51,7 +73,8 @@ const WinnersPage = () => {
         <div className="winners-year">
           <h2>2022:</h2>
           <ul>
-            <li><strong>Предприниматель года:</strong> Юлия Байбабина (Казахстан) – За успешное развитие сети салонов постельного белья, став лидером на рынке Казахстана и за его пределами.</li>
+            <li><strong>Предприниматель года:</strong>                  
+              <span data-translate-custom={ "Юлия Байбабина" ? "true" : "false"}> Юлия Байбабина</span>  (Казахстан) – За успешное развитие сети салонов постельного белья, став лидером на рынке Казахстана и за его пределами.</li>
             <li><strong>Инновационный лидер:</strong> Людмила Остафьева (Беларусь) – За разработку технологии умных домов, которая позволила снизить энергопотребление и повысить безопасность жилья.</li>
             <li><strong>Лидер устойчивого развития:</strong> Султан Керимов (Казахстан) – За создание программы по восстановлению лесов и снижение уровня выбросов углерода через участие крупных корпораций.</li>
             <li><strong>Лидер международного бизнеса:</strong> Андрей Незлобный (Россия) – За успешное расширение бизнеса по производству модной обуви на рынок СНГ.</li>
