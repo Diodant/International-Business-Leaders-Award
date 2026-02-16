@@ -11,11 +11,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: 'Interstate', sans-serif;
+  font-family: 'Manrope', sans-serif;
   margin: 0;
   padding: 0;
 
 }
+
+
 
 
 .menu-header {
@@ -349,7 +351,7 @@ padding: 0px 100px;
 
 .quote-content .author {
   font-size: 16px;
-    font-family: 'Interstate', sans-serif;
+    font-family: 'Manrope', sans-serif;
   line-height: 22px;
   font-weight: 700;
   margin: 0;
@@ -371,7 +373,7 @@ padding: 0px 100px;
   background-color: #2e2e38;
   color: white;
   padding: 50px 100px;
-  font-family: 'Interstate', sans-serif;
+  font-family: 'Manrope', sans-serif;
   position: relative;
 }
 
@@ -460,7 +462,7 @@ padding: 0px 100px;
   background-color: #ffe600;
   color: #2c2c38;
   padding: 50px 100px;
-  font-family: 'Interstate', sans-serif;
+  font-family: 'Manrope', sans-serif;
   position: relative;
 }
 
@@ -606,7 +608,7 @@ padding: 0px 100px;
 
 .judge-photo {
   width: 100%;
-  height: auto;
+  height: 310px;
   object-fit: cover;
 }
 
@@ -984,7 +986,7 @@ padding: 0px 100px;
 .contact-form-container textarea::placeholder {
   color: #fff;
   font-size: 16px;
-  font-family: 'Interstate', sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-weight: 300;
 }
 
@@ -1041,7 +1043,7 @@ padding: 0px 100px;
   background-color: #fff;
   padding: 30px 100px;
   border-top: 1px solid #ddd;
-  font-family: 'Interstate', sans-serif;
+  font-family: 'Manrope', sans-serif;
 }
 
 .footer-container {
