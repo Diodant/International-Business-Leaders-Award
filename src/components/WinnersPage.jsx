@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 
 const WinnersPage = () => {
 
@@ -55,11 +56,63 @@ useEffect(() => {
     };
   }, []);
 
-
+const winnersStructuredData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "Победители Международной премии Лидеров бизнеса",
+  url: "https://businessleadershipaward.com/winners",
+  inLanguage: "ru",
+  mainEntity: [
+    {
+      "@type": "Person",
+      name: "Айк Партизпанян",
+      alternateName: "Hayk Partizpanyan",
+      nationality: "Armenia",
+      award: "International Business Leadership Award 2022"
+    },
+    {
+      "@type": "Person",
+      name: "Вадим Пренко",
+      alternateName: "Vadym Prenko",
+      nationality: "Ukraine",
+      award: "International Business Leadership Award 2021"
+    }
+  ]
+};
 
 
   return (
     <>
+<Helmet
+  script={[
+    {
+      type: "application/ld+json",
+      innerHTML: JSON.stringify(winnersStructuredData),
+    },
+  ]}
+>
+  <html lang="ru" />
+  <title>
+    Победители Международной премии Лидеров бизнеса — Hayk Partizpanyan, Vadym Prenko
+  </title>
+  <meta
+    name="description"
+    content="Победители Международной премии Лидеров бизнеса с 2019 по 2025 год. В числе лауреатов: Hayk Partizpanyan (Айк Партизпанян, Armenia), Vadym Prenko (Вадим Пренко, Ukraine) и другие."
+  />
+  <link rel="canonical" href="https://businessleadershipaward.com/winners" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="Победители Международной премии Лидеров бизнеса"
+  />
+  <meta
+    property="og:description"
+    content="Список победителей премии. В числе лауреатов: Hayk Partizpanyan (Айк Партизпанян, Armenia), Vadym Prenko (Вадим Пренко, Ukraine)."
+  />
+  <meta property="og:url" content="https://businessleadershipaward.com/winners" />
+</Helmet>
             <div className="winners-container">
       <div className="overlay">
         <div className="text-content">
@@ -97,8 +150,19 @@ useEffect(() => {
         <div className="winners-year">
           <h2>2021:</h2>
           <ul>
-            <li><strong>Предприниматель года:</strong> <span   data-translate-custom="true"
-  data-original-name="Вадим Пренко">Вадим Пренко</span> (Украина) – За создание и успешную глобальную коммерциализацию инновационной платформы по борьбе с цифровым мошенничеством, которая получила международное признание, как новый стандарт безопасности, обеспечивая защиту финансовых операций для компаний по всему миру.</li>
+<li>
+  <strong>Предприниматель года:</strong>{' '}
+  <span
+    id="vadym-prenko"
+    data-translate-custom="true"
+    data-original-name="Вадим Пренко"
+  >
+    Вадим Пренко
+  </span>{' '}
+  (Украина)
+  <span className="winner-name-en">Vadym Prenko (Ukraine)</span>
+  {' '}– За создание и успешную глобальную коммерциализацию инновационной платформы по борьбе с цифровым мошенничеством, которая получила международное признание, как новый стандарт безопасности, обеспечивая защиту финансовых операций для компаний по всему миру.
+</li>
             <li><strong>Инновационный лидер:</strong> Султан Ахматов (Казахстан) – За создание автономной системы управления для электромобилей, которая снизила потребление энергии на 15%.</li>
             <li><strong>Лидер устойчивого развития:</strong> Иван Соколов (Россия) – За внедрение солнечных панелей на всех производственных площадках компании, что позволило сократить использование ископаемого топлива на 70%.</li>
             <li><strong>Лидер международного бизнеса:</strong> Влад Белоусов (Беларусь) – За успешный вывод бренда модной одежды на рынки Азии и Европы, увеличив международные продажи в два раза.</li>
@@ -111,8 +175,24 @@ useEffect(() => {
           <ul>
             <li><strong>Предприниматель года:</strong> <span data-translate-custom="true"
   data-original-name="Юлия Байбабина">Юлия Байбабина</span>  (Казахстан) – За успешное развитие сети салонов постельного белья, став лидером на рынке Казахстана и за его пределами.</li>
-            <li><strong>Инновационный лидер:</strong> <span   data-translate-custom="true"
-  data-original-name="Айк Партизпанян">Айк Партизпанян</span> (Армения) - За внедрение технологии отслеживания примерок в режиме реального времени на основе патента «Умная вешалка», что изменило подход к клиентскому сервису и мерчандайзингу в fashion-ритейле.</li>
+<li>
+<strong>Инновационный лидер:</strong>{' '}
+<span
+id="hayk-partizpanyan"
+data-translate-custom="true"
+data-original-name="Айк Партизпанян"
+>
+Айк Партизпанян
+</span>{' '}
+(Армения) 
+
+
+
+ – За внедрение технологии отслеживания примерок в режиме реального времени на основе патента «Умная вешалка», что изменило подход к клиентскому сервису и мерчандайзингу в fashion-ритейле.
+ <span className="winner-name-en">
+Hayk Partizpanyan (Armenia)
+</span>
+</li>
             <li><strong>Лидер устойчивого развития:</strong> Султан Керимов (Казахстан) – За создание программы по восстановлению лесов и снижение уровня выбросов углерода через участие крупных корпораций.</li>
             <li><strong>Лидер международного бизнеса:</strong> Андрей Незлобный (Россия) – За успешное расширение бизнеса по производству модной обуви на рынок СНГ.</li>
             <li><strong>Прорыв года:</strong> Иван Попов (Россия) – За запуск высокотехнологичной платформы для онлайн-торговли, которая достигла оборота в 500 миллионов рублей за первый год.</li>

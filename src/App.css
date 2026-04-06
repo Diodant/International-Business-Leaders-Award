@@ -17,7 +17,14 @@ body {
 
 }
 
-
+.winner-name-en{
+position:absolute;
+width:1px;
+height:1px;
+overflow:hidden;
+clip:rect(0,0,0,0);
+white-space:nowrap;
+}
 
 
 .menu-header {
@@ -1134,4 +1141,407 @@ padding: 0px 100px;
 
 .footer-legal strong {
   font-weight: bold;
+}
+
+.seo-hidden-name{
+position:absolute;
+width:1px;
+height:1px;
+overflow:hidden;
+clip:rect(0,0,0,0);
+white-space:nowrap;
+}
+
+.judge-name-wrap{
+position:relative;
+display:inline;
+}
+
+/* NEWS PAGE */
+.articles-hero {
+  position: relative;
+  background-image: url('./images/gallery_bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+}
+
+.articles-page-section {
+  background-color: #2e2e38;
+  padding: 50px 100px;
+}
+
+.articles-page-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.articles-page-intro {
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 40px;
+  max-width: 850px;
+}
+
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.news-card {
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.news-card-image-link {
+  display: block;
+}
+
+.news-card-image {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.news-card-content {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.news-card-date {
+  font-size: 14px;
+  line-height: 20px;
+  color: #747480;
+  margin-bottom: 12px;
+}
+
+.news-card-title {
+  margin-bottom: 15px;
+}
+
+.news-card-title a {
+  color: #2e2e38;
+  text-decoration: none;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 300;
+}
+
+.news-card-title a:hover {
+  color: #b89b00;
+}
+
+.news-card-excerpt {
+  color: #2e2e38;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  flex-grow: 1;
+}
+
+.news-card-link {
+  color: #2e2e38;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.news-card-link:hover {
+  color: #b89b00;
+}
+
+/* ARTICLE PAGE */
+.article-hero {
+  position: relative;
+  background-image: url('./images/gallery_bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 45vh;
+}
+
+.article-page-section {
+  background-color: #2e2e38;
+  padding: 50px 100px;
+}
+
+.article-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.article-page {
+  background-color: #fff;
+  padding: 50px;
+}
+
+.article-meta {
+  margin-bottom: 20px;
+}
+
+.article-date {
+  color: #747480;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.article-page-title {
+  color: #2e2e38;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.article-page-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.article-page-image--inner {
+  margin: 25px 0;
+}
+
+.article-page-content {
+  color: #2e2e38;
+}
+
+.article-paragraph {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+.article-header {
+  font-size: 34px;
+  line-height: 42px;
+  font-weight: 300;
+  color: #2e2e38;
+  margin-top: 35px;
+  margin-bottom: 18px;
+}
+
+.article-sub-header {
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+  color: #2e2e38;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.article-list {
+  margin: 25px 0;
+  padding-left: 24px;
+}
+
+.article-list li {
+  color: #2e2e38;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.article-author {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  color: #2e2e38;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.article-not-found {
+  background-color: #2e2e38;
+  color: white;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  line-height: 36px;
+  padding: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1200px) {
+  .articles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .articles-page-section,
+  .article-page-section {
+    padding: 50px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .articles-page-section,
+  .article-page-section {
+    padding: 40px 20px;
+  }
+
+  .article-page {
+    padding: 30px 20px;
+  }
+
+  .article-page-title {
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .article-paragraph,
+  .article-list li,
+  .articles-page-intro,
+  .news-card-excerpt {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .news-card-title a {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+.article-person-card {
+  display: grid;
+
+  align-items: start;
+  margin: 40px 0;
+  padding: 32px;
+}
+
+.article-person-card__media {
+  width: 100%;
+}
+
+.article-person-card__image {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.article-person-card__content {
+  min-width: 0;
+}
+
+.article-person-card__meta {
+  margin-bottom: 24px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.article-person-card__name {
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 300;
+  color: #2e2e38;
+  margin: 0 0 10px 0;
+}
+
+.article-person-card__country {
+  font-weight: 300;
+  color: #747480;
+}
+
+.article-person-card__nomination {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #2e2e38;
+}
+
+.article-person-card__qa-item {
+  margin-bottom: 24px;
+}
+
+.article-person-card__qa-item:last-child {
+  margin-bottom: 0;
+}
+
+.article-person-card__question {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #2e2e38;
+  margin: 0 0 10px 0;
+}
+
+.article-person-card__answer {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #2e2e38;
+  margin: 0;
+}
+
+.article-person-card {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 20px;
+  margin: 30px 0;
+}
+
+.article-person-card__image {
+  height: 300px;
+  max-height: 300px;
+}
+
+.article-person-card__name {
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.article-person-card__question {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.article-person-card__answer {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.news-card-image-link {
+  display: block;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  background: #f5f5f5;
+}
+
+.news-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.news-card-image--logo {
+  object-fit: contain;
+  padding: 24px;
+  background: #f5f5f5;
 }

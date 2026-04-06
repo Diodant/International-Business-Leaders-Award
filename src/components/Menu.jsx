@@ -15,6 +15,7 @@ const Menu = () => {
           <li><Link to="/gallery">Фотогалерея</Link></li>
           <li><Link to="/judges">Судьи</Link></li>
           <li><Link to="/winners">Победители</Link></li>
+          <li><Link to="/articles">Статьи</Link></li>
           <li><Link to="/Contacts">Контакты</Link></li>
         </ul>
       </nav>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import trainingImage from '../images/training.jpg';
 import judges_1 from '../images/judges/judges_1.jpg';
 import judges_2 from '../images/judges/judges_2.jpg';
@@ -106,6 +107,47 @@ const Judges = () => {
 
   return (
     <>
+    <Helmet>
+  <html lang="ru" />
+  <title>
+    Жюри Международной премии Лидеров бизнеса. В составе жюри: Nataliia Chernousova (Наталья Черноусова, Ukraine) и другие международные эксперты.
+  </title>
+  <meta
+    name="description"
+    content="Жюри Международной премии Лидеров бизнеса. В составе жюри: Nataliia Chernousova (Наталья Черноусова, Ukraine) и другие международные эксперты."
+  />
+  <link rel="canonical" href="https://businessleadershipaward.com/judges" />
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:title"
+    content="Жюри Международной премии Лидеров бизнеса"
+  />
+  <meta
+    property="og:description"
+    content="Жюри Международной премии Лидеров бизнеса. В составе жюри: Nataliia Chernousova (Наталья Черноусова, Ukraine)."
+  />
+  <meta property="og:url" content="https://businessleadershipaward.com/judges" />
+
+  <script type="application/ld+json">
+    {JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      name: "Жюри Международной премии Лидеров бизнеса",
+      url: "https://businessleadershipaward.com/judges",
+      inLanguage: "ru",
+      mainEntity: {
+        "@type": "Person",
+        name: "Наталья Черноусова",
+        alternateName: "Nataliia Chernousova",
+        nationality: "Ukraine",
+        award: "International Business Leadership Award Jury 2023"
+      }
+    })}
+  </script>
+</Helmet>
+    <span className="seo-hidden-name">Nataliia Chernousova</span>
         <div className="judges-container">
       <div className="overlay">
         <div className="text-content">
@@ -114,6 +156,7 @@ const Judges = () => {
         </div>
       </div>
     </div>
+
 
     <div className="strategy-section ">
       <div className="strategy-card border-r">
